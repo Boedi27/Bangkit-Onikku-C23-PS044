@@ -1,0 +1,174 @@
+
+import os
+import time
+import cv2
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+import matplotlib.pyplot as plt
+from PIL import Image, ImageOps
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Flatten, Conv2D, MaxPooling2D, Dropout, BatchNormalization
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+from google.colab import drive
+drive.mount('/content/drive', force_remount=True)
+
+file_dir = '/content/drive/MyDrive/BANGKIT/DATASETS/DATASET'
+train_dir = os.path.join(file_dir, 'TRAIN')
+valid_dir = os.path.join(file_dir, 'TEST')
+test_dir = os.path.join(file_dir, 'TEST')
+
+train_datagen = ImageDataGenerator(rescale=1./255, 
+                                   fill_mode='reflect',
+                                   shear_range=0.3,
+                                   horizontal_flip=True,
+                                   vertical_flip=True,
+                                   rotation_range=60)
+
+test_datagen = ImageDataGenerator(rescale=1./255)
+val_datagen = ImageDataGenerator(rescale=1./255)
+
+
+train_gen = train_datagen.flow_from_directory(train_dir, 
+                                         target_size=(128,128), 
+                                         batch_size=128,
+                                         class_mode="categorical")
+
+testing_gen = test_datagen.flow_from_directory(test_dir, 
+                                               target_size=(128,128), 
+                                               batch_size=128,
+                                               class_mode="categorical")
+
+validation_gen = val_datagen.flow_from_directory(test_dir, 
+                                             target_size=(128,128), 
+                                             batch_size=128,
+                                             class_mode="categorical")
+
+Output:
+Found 2791 images belonging to 6 classes.
+Found 739 images belonging to 6 classes.
+Found 739 images belonging to 6 classes.
+
+print("Train/Validation indicies: ", train_gen.class_indices)
+print("\n0 stands for Buah \"B\" \n1 stands for Cangkang Telur \"C\" \n2 stands for Daun \"D\"\n3 stands for Ranting \"R\" \n4 stands for Sayur \"S\" \n5 stands for Tulang \"T\"")
+Output:
+Train/Validation indicies:  {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5}
+
+0 stands for Buah "B" 
+1 stands for Cangkang Telur "C" 
+2 stands for Daun "D"
+3 stands for Ranting "R" 
+4 stands for Sayur "S" 
+5 stands for Tulang "T"
+
+img, labels = next(train_gen)
+plt.figure(figsize=(15, 13))
+for i in range(30):
+    ax = plt.subplot(6, 6, i + 1)
+    plt.imshow(img[i])
+    if labels[i][0] == 1:
+        plt.title("Buah")
+    elif labels[i][1] == 1:
+        plt.title("Cangkang Telur")
+    elif labels[i][2] == 1:
+        plt.title("Daun")
+    elif labels[i][3] == 1:
+        plt.title("Ranting")
+    elif labels[i][4] == 1:
+        plt.title("Sayur")
+    else:
+        plt.title("Tulang")
+    plt.axis("off")
+del img
+del labels
+
+# Modelling
+model = tf.keras.Sequential()
+
+model.add(tf.keras.layers.Conv2D(64, (3, 3), activation='relu', input_shape=(128, 128, 3)))
+model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+
+model.add(tf.keras.layers.Conv2D(128, (3, 3), activation='relu'))
+model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+
+model.add(tf.keras.layers.Flatten())
+model.add(tf.keras.layers.Dense(128, activation='relu', kernel_regularizer=tf.keras.regularizers.L1L2(l2=0.001)))
+model.add(tf.keras.layers.Dropout(0.5))
+model.add(tf.keras.layers.Dense(6, activation='softmax'))
+model.summary()
+
+# Compiling
+model.compile(optimizer='adam',loss='CategoricalCrossentropy', metrics=['accuracy'])
+
+early_stopping_monitor = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)
+
+best_model = ModelCheckpoint('bestmodel.hdf5', monitor='val_loss', save_best_only=True)
+
+# Fitting the model
+history = model.fit(train_gen,
+                    steps_per_epoch=len(train_gen),
+                    validation_data=validation_gen,
+                    validation_steps=len(validation_gen),
+                    epochs=30,
+                    callbacks=[best_model, early_stopping_monitor])
+
+# Plotting
+plt.figure(figsize=[10,6])
+plt.plot(history.history["accuracy"], label = "Training accuracy")
+plt.plot(history.history["val_accuracy"], label = "Validation accuracy")
+plt.legend()
+plt.show()
+
+plt.figure(figsize=(10,6))
+plt.plot(history.history['loss'], label = "Training loss")
+plt.plot(history.history['val_loss'], label = "Validation loss")
+plt.legend()
+plt.show()
+
+# Checking the accuracy rate
+model.load_weights('bestmodel.hdf5')
+model.evaluate(validation_gen);
+
+# Predicting the model
+def predict_func(img): 
+    result = model.predict(img)
+    return result
+
+# Result
+img, _ = next(validation_gen)
+plt.figure(figsize=(15, 13))
+result = model.predict(img)
+
+class_labels = {
+    0: "Buah",
+    1: "Cangkang Telur",
+    2: "Daun",
+    3: "Ranting",
+    4: "Sayur",
+    5: "Tulang"
+}
+
+n_images = len(img)
+n_rows = 7
+n_cols = (n_images // n_rows) + 1
+
+for i in range(n_images):
+    ax = plt.subplot(n_rows, n_cols, i + 1)
+    plt.imshow(img[i])
+    
+    predicted_label = result[i].argmax()
+    true_label = _[i].argmax()
+    
+    if true_label in class_labels:
+        if predicted_label == true_label:
+            plt.title(class_labels[true_label], color='green')
+        else:
+            plt.title(class_labels[true_label], color='red')
+    else:
+        plt.title("Kelas Tidak Diketahui", color='red')
+        
+    plt.axis("off")
+
+plt.show()
