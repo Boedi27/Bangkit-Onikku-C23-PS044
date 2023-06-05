@@ -10,6 +10,7 @@ Our Guild Members
 |         :---:           |    :---:     |       :---:        |
 | Tiara Rianasari         | M151DSY2359  | Machine Learning   |
 | Zahra Putri Amanina     | M151DSY1480  | Machine Learning   |
+| Muhamad Arif Boediman   | A304DSX1399  | Mobile Development |
 | Fajris Zahrotun Nihayah | M017DSY3443  | Machine Learning   |
 | Kheyla Ramadhani Hakim  | C132DSY0767  | Cloud Computing    |
 | Radhyana Putri          | C151DSY1383  | Cloud Computing    |
