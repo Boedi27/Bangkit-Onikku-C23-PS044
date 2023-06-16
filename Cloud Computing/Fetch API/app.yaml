@@ -1,0 +1,17 @@
+runtime: python39
+instance_class: F2
+
+env_variables:
+  #MYSQL_USER: your_mysql_user
+  #MYSQL_PASSWORD: your_mysql_password
+  #MYSQL_HOST: your_mysql_host
+  MYSQL_DATABASE: rekomendasi_pengolahan_sampah
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 5
+
+handlers:
+- url: /fetch-data
+  script: main.py
