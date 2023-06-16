@@ -1,3 +1,0 @@
-mysql-connector-python
-Flask
-numpy==1.21.2
