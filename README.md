@@ -4,9 +4,31 @@
 
 # Bangkit-Onikku-C23-PS044
 
-Hello World!. This is our Repository for Bangkit Product Based Capstone 2023 Batch 1. 
+Hi everyone! 
 
-This is the start of our wonderful project of Onikku
+Onikku is an application made by the C23-PS044 team for Bangkit Academy 2023 Batch 1 Capstone Project.
+This app is made to accommodate people's need to sort their household wastes and make a biodegradable product out of it with the provided recommendation.
+
+This is a very simple app hence the user can just take a picture of their waste and upload it to know what's the recommended method to recycle their waste. Other than that, the app also provides the user with the location of the nearest waste banks just in case they can not process the waste on their own. 
+
+We build the machine learning model of this project using Google Colab Environment due to some limitations of our devices. The machine learning model is built with Tensorflow as the framework to classify household waste. 
+
+Our final code can be seen through the link below:
+https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/ML/Final%20Dataset
+
+While our dataset can be accessed through this link below:
+https://drive.google.com/drive/folders/1q2tDSyqLnG8CcgIdLVOyTQnlbLLna3ix?usp=sharing
+
+The very final model in .h5 format can be accessed through this link below:
+https://drive.google.com/file/d/1kp6Yu-eyoqMGfWy0XM0eFZs1GepWmcNY/view?usp=drive_link
+
+The final demo of our application can be seen through the link below:
+https://drive.google.com/file/d/1kVHZ0mhmKkrJNCj3i5A11HbQDT7MlFXc/view?usp=sharing
+
+The full documentation of the project from all the learning paths can be accessed through the link below:
+1. [Machine Learning](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/ML)
+2. [Cloud Computing](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/main/Cloud%20Computing)
+3. [Mobile Development](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/master)
 
 Our Guild Members
 --
@@ -19,10 +41,6 @@ Our Guild Members
 | Kheyla Ramadhani Hakim  | C132DSY0767  | Cloud Computing    |
 | Radhyana Putri          | C151DSY1383  | Cloud Computing    |
 
-Documentation:
-1. [Machine Learning](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/ML)
-2. [Cloud Computing](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/main/Cloud%20Computing)
-3. [Mobile Development](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/master)
 
 **Cloud Architecture**
 <p align="center">
