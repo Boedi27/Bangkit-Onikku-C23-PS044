@@ -26,7 +26,12 @@ The very final model in .h5 format can be accessed through this link below:
 https://drive.google.com/file/d/1kp6Yu-eyoqMGfWy0XM0eFZs1GepWmcNY/view?usp=drive_link
 
 This is the final demo of our app:
-https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/assets/93033628/9db81c4d-d819-48a7-8713-b2cb763105ca
+
+
+
+https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/assets/93033628/ceb256f2-673a-4db9-a652-a954d7724a54
+
+
 
 
 The full documentation of the project from all the learning paths can be accessed through the link below:
