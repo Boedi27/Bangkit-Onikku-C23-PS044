@@ -38,7 +38,7 @@ This is the **Cloud Architecture**
 
 This is the **MD Architecture**
 <p align="center">
-  <img src="WhatsApp Image 2023-06-16 at 23.04.13.jpeg" alt="Image" width="200" height="200">
+  <img src="[WhatsApp Image 2023-06-16 at 23.04.13.jpeg](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/master/WhatsApp%20Image%202023-06-16%20at%2023.04.13.jpeg)" alt="Image" width="200" height="200">
 </p>
 
 Mobile Development member will deploy it all to make the application that can be downloaded through [APK Link](https://drive.google.com/file/d/1ggCvy7tyyYuqLclQCjowHA30ThKjtBxA/view?usp=sharing)
