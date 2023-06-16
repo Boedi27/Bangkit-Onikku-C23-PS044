@@ -1,7 +1,7 @@
 runtime: python39
 instance_class: F1
 
-entrypoint: gunicorn -b :$PORT main:app
+entrypoint: gunicorn -b :$PORT app:app
 
 env_variables:
   # Set environment variables required by API
@@ -10,6 +10,12 @@ env_variables:
   LABELS_PATH: "models/labels.txt"
   IMAGE_SIZE: "512"
   CONFIDENCE_THRESHOLD: "0.5"
+  
+  #set for sql
+  USER: root
+  PASSWORD: onikkuprojectinstance
+  HOST: 34.101.249.86
+  DATABASE: onikku_db
 
 automatic_scaling:
   target_cpu_utilization: 0.65
@@ -18,4 +24,4 @@ automatic_scaling:
 
 handlers:
 - url: /.*
-  script: auto
+  script: app.py
