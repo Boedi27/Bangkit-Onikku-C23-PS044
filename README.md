@@ -45,7 +45,7 @@ Mobile Development member will deploy it all to make the application that can be
 
 
 <p align="center">
-  This is the **final demo** of our app:
+  This is the final demo of our app:
 
 
 
