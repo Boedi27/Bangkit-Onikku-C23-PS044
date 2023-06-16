@@ -30,16 +30,17 @@ https://drive.google.com/file/d/1kp6Yu-eyoqMGfWy0XM0eFZs1GepWmcNY/view?usp=drive
 
 
   The above model is then deployed by the Cloud Computing members through the links below:
-
+<p align="center">
 Link Deploy API (CC):
 
 https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/ for GET request
 
 https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/status for POST request on Postman put ‘file’ as key
+</p>
 
-
-  This is the final demo of our app:
 <p align="center">
+  This is the final demo of our app:
+
 
 
 
