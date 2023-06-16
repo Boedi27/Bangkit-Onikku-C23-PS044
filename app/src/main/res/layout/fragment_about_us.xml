@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="100dp"
+    tools:context=".ui.navigation.aboutUs.AboutUsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_About_Us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_team"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/text_Md_Engineer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/about_md_engineer"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/text_About_Us"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toStartOf="@+id/text_About_Us"
+            app:layout_constraintTop_toBottomOf="@+id/text_About_Us"
+            tools:text="@string/about_md_engineer" />
+
+        <TextView
+            android:id="@+id/name_Md_Engineer_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/anggota_1"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/text_Md_Engineer"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/text_Md_Engineer"
+            app:layout_constraintTop_toBottomOf="@+id/text_Md_Engineer" />
+
+        <TextView
+            android:id="@+id/email_Md_Engineer_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_anggota_1"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/name_Md_Engineer_1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/name_Md_Engineer_1"
+            app:layout_constraintTop_toBottomOf="@+id/name_Md_Engineer_1" />
+
+        <TextView
+            android:id="@+id/text_Ml_engineer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/about_ml_engineer"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/email_Md_Engineer_1"
+            app:layout_constraintHorizontal_bias="0.072"
+            app:layout_constraintStart_toStartOf="@+id/email_Md_Engineer_1"
+            app:layout_constraintTop_toBottomOf="@+id/email_Md_Engineer_1" />
+
+        <TextView
+            android:id="@+id/name_Ml_Engineer_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/anggota_2"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/text_Ml_engineer"
+            app:layout_constraintHorizontal_bias="0.009"
+            app:layout_constraintStart_toStartOf="@+id/text_Ml_engineer"
+            app:layout_constraintTop_toBottomOf="@id/text_Ml_engineer" />
+
+        <TextView
+            android:id="@+id/email_Ml_Engineer_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_anggota_2"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/name_Ml_Engineer_1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/name_Ml_Engineer_1"
+            app:layout_constraintTop_toBottomOf="@id/name_Ml_Engineer_1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/name_Ml_Engineer_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/anggota_3"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/email_Ml_Engineer_1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/email_Ml_Engineer_1"
+            app:layout_constraintTop_toBottomOf="@id/email_Ml_Engineer_1" />
+
+        <TextView
+            android:id="@+id/email_Ml_Engineer_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_anggota_3"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/name_Ml_Engineer_2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/name_Ml_Engineer_2"
+            app:layout_constraintTop_toBottomOf="@id/name_Ml_Engineer_2" />
+
+        <TextView
+            android:id="@+id/name_Ml_Engineer_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/anggota_4"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/email_Ml_Engineer_2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/email_Ml_Engineer_2"
+            app:layout_constraintTop_toBottomOf="@id/email_Ml_Engineer_2" />
+
+        <TextView
+            android:id="@+id/email_Ml_Engineer_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_anggota_4"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/name_Ml_Engineer_3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/name_Ml_Engineer_3"
+            app:layout_constraintTop_toBottomOf="@id/name_Ml_Engineer_3" />
+
+        <TextView
+            android:id="@+id/text_Cc_Engineer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/cloud_computing_engineer"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/email_Ml_Engineer_3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/email_Ml_Engineer_3"
+            app:layout_constraintTop_toBottomOf="@id/email_Ml_Engineer_3" />
+
+        <TextView
+            android:id="@+id/name_Cc_Engineer_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/anggota_5"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/text_Cc_Engineer"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/text_Cc_Engineer"
+            app:layout_constraintTop_toBottomOf="@id/text_Cc_Engineer" />
+
+        <TextView
+            android:id="@+id/email_Cc_engineer_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_anggota_5"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/name_Cc_Engineer_1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/name_Cc_Engineer_1"
+            app:layout_constraintTop_toBottomOf="@id/name_Cc_Engineer_1" />
+
+        <TextView
+            android:id="@+id/name_Cc_Engineer_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anggota_6"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/email_Cc_engineer_1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/email_Cc_engineer_1"
+            app:layout_constraintTop_toBottomOf="@id/email_Cc_engineer_1" />
+
+        <TextView
+            android:id="@+id/email_Cc_engineer_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_anggota_6"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/name_Cc_Engineer_2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/name_Cc_Engineer_2"
+            app:layout_constraintTop_toBottomOf="@id/name_Cc_Engineer_2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
