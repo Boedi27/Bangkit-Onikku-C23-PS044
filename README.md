@@ -13,7 +13,7 @@ This is a very simple app hence the user can just take a picture of their waste 
 
 We build the machine learning model of this project using Google Colab Environment due to some limitations of our devices. The machine learning model is built with Tensorflow as the framework to classify household waste. 
 
-<p align="center">
+
   Our final code can be seen through the link below:
 
 https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/ML/ML_Onikku_Final_accuracy_82.ipynb
@@ -36,7 +36,7 @@ Link Deploy API (CC):
 https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/ for GET request
 
 https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/status for POST request on Postman put ‘file’ as key
-</p>
+
 
 <p align="center">
   This is the final demo of our app:
