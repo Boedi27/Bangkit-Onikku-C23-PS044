@@ -23,3 +23,8 @@ Documentation:
 1. [Machine Learning](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/ML)
 2. [Cloud Computing](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/main/Cloud%20Computing)
 3. [Mobile Development](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/master)
+
+**Cloud Architecture**
+<p align="center">
+  <img src="https://drive.google.com/file/d/1dEmiqXSTGJAMbYDIKk8-47q8KKglku2Y/view?usp=drive_link" alt="Image" width="200" height="200">
+</p>
