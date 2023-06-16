@@ -26,7 +26,11 @@ The very final model in .h5 format can be accessed through this link below:
 https://drive.google.com/file/d/1kp6Yu-eyoqMGfWy0XM0eFZs1GepWmcNY/view?usp=drive_link
 
 The final demo of our application can be seen through the link below:
-[(https://drive.google.com/file/d/1kVHZ0mhmKkrJNCj3i5A11HbQDT7MlFXc/view?usp=sharing)]
+
+
+https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/assets/93033628/970f0f65-3902-459f-b325-dce23e849424
+
+
 
 The full documentation of the project from all the learning paths can be accessed through the link below:
 1. [Machine Learning](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/ML)
