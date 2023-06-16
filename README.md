@@ -37,16 +37,11 @@ This is the **Cloud Architecture**
 </p>
 
 This is the **MD Architecture**
-<p align="center">
+
+https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/assets/93033628/c27d2289-ee0d-4e14-93b5-1da941d6399e
 
 
-  
-https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/assets/93033628/591c5acd-5970-4c8e-bffa-b8846915c696
-
-  
-</p>
-
-Then our Mobile Development member will deploy it all to make the application that can be downloaded through [APK Link](https://drive.google.com/file/d/1ggCvy7tyyYuqLclQCjowHA30ThKjtBxA/view?usp=sharing)
+Mobile Development member will deploy it all to make the application that can be downloaded through [APK Link](https://drive.google.com/file/d/1ggCvy7tyyYuqLclQCjowHA30ThKjtBxA/view?usp=sharing)
 
 
 <p align="center">
