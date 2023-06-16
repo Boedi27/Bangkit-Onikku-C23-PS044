@@ -1,3 +1,5 @@
+![Logo Onikku](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/main/Logo.png)
+
 # Bangkit-Onikku-C23-PS044
 
 Hello World!. This is our Repository for Bangkit Product Based Capstone 2023 Batch 1. 
