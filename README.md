@@ -1,4 +1,6 @@
-<img src="https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/main/Logo.png" alt="Logo" width="100" height="100">
+<div style="text-align:center">
+  <img src="https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/main/Logo.png" alt="Image" width="300" height="300">
+</div>
 
 # Bangkit-Onikku-C23-PS044
 
