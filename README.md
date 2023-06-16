@@ -19,7 +19,7 @@ https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/ML/Final%20Dataset
 
 While our dataset can be accessed through this link below:
 
-https://drive.google.com/drive/folders/1q2tDSyqLnG8CcgIdLVOyTQnlbLLna3ix?usp=sharing
+https://drive.google.com/drive/folders/1bzBNiePz_vq86dzwNGpiKfQTw99dAWmM
 
 The very final model in .h5 format can be accessed through this link below:
 
