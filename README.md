@@ -1,7 +1,6 @@
-<div style="text-align:center">
-  <img src="https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/main/Logo.png" alt="Image" width="300" height="300">
-</div>
-
+<p align="center">
+  <img src="https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/main/Logo.png" alt="Image">
+</p>
 # Bangkit-Onikku-C23-PS044
 
 Hello World!. This is our Repository for Bangkit Product Based Capstone 2023 Batch 1. 
