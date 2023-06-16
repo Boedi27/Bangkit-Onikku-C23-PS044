@@ -14,28 +14,38 @@ This is a very simple app hence the user can just take a picture of their waste 
 We build the machine learning model of this project using Google Colab Environment due to some limitations of our devices. The machine learning model is built with Tensorflow as the framework to classify household waste. 
 
 
-  Our final code can be seen through [Final Code Onikku](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/ML/ML_Onikku_Final_accuracy_82.ipynb)
+  Our **final code** can be seen through [Final Code Onikku](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/ML/ML_Onikku_Final_accuracy_82.ipynb)
 
 
-  While our dataset can be accessed through [Dataset Onikku](https://drive.google.com/drive/folders/1bzBNiePz_vq86dzwNGpiKfQTw99dAWmM)
+  While our **dataset** can be accessed through [Dataset Onikku](https://drive.google.com/drive/folders/1bzBNiePz_vq86dzwNGpiKfQTw99dAWmM)
 
 
-  The very final model in .h5 format can be accessed through [Final Model Onikku](https://drive.google.com/file/d/1kp6Yu-eyoqMGfWy0XM0eFZs1GepWmcNY/view?usp=drive_link)
+  The very **final model** in .h5 format can be accessed through [Final Model Onikku](https://drive.google.com/file/d/1kp6Yu-eyoqMGfWy0XM0eFZs1GepWmcNY/view?usp=drive_link)
 
 
   The above model is then deployed by the Cloud Computing members through the links below:
 
-Link Deploy API (CC):
+Link **Deploy API** (CC):
 
 [To GET Request](https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/) for GET request
 
 [To POST Request](https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/status) for POST request on Postman put ‘file’ as key
 
+This is the **Cloud Architecture**
+<p align="center">
+  <img src="Cloud Computing/cloud-architecture.png" alt="Image">
+</p>
+
+This is the **MD Architecture**
+<p align="center">
+  ![WhatsApp Image 2023-06-16 at 23 04 13](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/assets/93033628/591c5acd-5970-4c8e-bffa-b8846915c696)
+</p>
+
 Then our Mobile Development member will deploy it all to make the application that can be downloaded through [APK Link](https://drive.google.com/file/d/1ggCvy7tyyYuqLclQCjowHA30ThKjtBxA/view?usp=sharing)
 
 
 <p align="center">
-  This is the final demo of our app:
+  This is the **final demo** of our app:
 
 
 
