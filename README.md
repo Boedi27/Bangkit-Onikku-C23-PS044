@@ -37,7 +37,7 @@ https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/ for GET request
 
 https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/status for POST request on Postman put ‘file’ as key
 
-
+<p align="center">
   This is the final demo of our app:
 
 
@@ -45,7 +45,7 @@ https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/status for POST request on P
 https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/assets/93033628/ceb256f2-673a-4db9-a652-a954d7724a54
 
 
-
+</p>
 
 The full documentation of the project from all the learning paths can be accessed through the link below:
 1. [Machine Learning](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/ML)
