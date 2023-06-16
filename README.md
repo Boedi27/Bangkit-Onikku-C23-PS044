@@ -38,8 +38,11 @@ This is the **Cloud Architecture**
 
 This is the **MD Architecture**
 <p align="center">
+
+
   
-  https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/assets/93033628/591c5acd-5970-4c8e-bffa-b8846915c696
+https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/assets/93033628/591c5acd-5970-4c8e-bffa-b8846915c696
+
   
 </p>
 
