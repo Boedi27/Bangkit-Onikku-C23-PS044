@@ -31,6 +31,10 @@ Link Deploy API (CC):
 
 [To POST Request](https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/status) for POST request on Postman put ‘file’ as key
 
+Then our Mobile Development member will deploy it all to make the application with these links below:
+
+[APK Link] (https://drive.google.com/file/d/1ggCvy7tyyYuqLclQCjowHA30ThKjtBxA/view?usp=sharing)
+
 
 <p align="center">
   This is the final demo of our app:
