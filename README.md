@@ -26,5 +26,5 @@ Documentation:
 
 **Cloud Architecture**
 <p align="center">
-  <img src="Cloud Computing/cloud-architecture.png" alt="Image" width="200" height="200">
+  <img src="Cloud Computing/cloud-architecture.png" alt="Image">
 </p>
