@@ -16,7 +16,7 @@ We build the machine learning model of this project using Google Colab Environme
 
   Our final code can be seen through the link below:
 
-https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/ML/Final%20Dataset
+https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/ML/ML_Onikku_Final_accuracy_82.ipynb
 
 
   While our dataset can be accessed through this link below:
