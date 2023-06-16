@@ -38,8 +38,6 @@ This is the **Cloud Architecture**
 
 This is the **MD Architecture**
 
-https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/assets/93033628/c27d2289-ee0d-4e14-93b5-1da941d6399e
-
 
 Mobile Development member will deploy it all to make the application that can be downloaded through [APK Link](https://drive.google.com/file/d/1ggCvy7tyyYuqLclQCjowHA30ThKjtBxA/view?usp=sharing)
 
