@@ -38,7 +38,7 @@ This is the **Cloud Architecture**
 
 This is the **MD Architecture**
 <p align="center">
-  <img src="https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/master/WhatsApp%20Image%202023-06-16%20at%2023.04.13.jpeg" alt="Image" width="200" height="200">
+  <img src="https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/master/WhatsApp%20Image%202023-06-16%20at%2023.04.13.jpeg" alt="Image" width="400" height="400">
 </p>
 
 Mobile Development member will deploy it all to make the application that can be downloaded through [APK Link](https://drive.google.com/file/d/1ggCvy7tyyYuqLclQCjowHA30ThKjtBxA/view?usp=sharing)
@@ -70,9 +70,3 @@ Our Guild Members
 | Fajris Zahrotun Nihayah | M017DSY3443  | Machine Learning   |
 | Kheyla Ramadhani Hakim  | C132DSY0767  | Cloud Computing    |
 | Radhyana Putri          | C151DSY1383  | Cloud Computing    |
-
-
-**Cloud Architecture**
-<p align="center">
-  <img src="Cloud Computing/cloud-architecture.png" alt="Image">
-</p>
