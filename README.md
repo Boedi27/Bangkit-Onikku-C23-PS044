@@ -33,7 +33,7 @@ Link Deploy API (CC):
 
 Then our Mobile Development member will deploy it all to make the application with these links below:
 
-[APK Link] (https://drive.google.com/file/d/1ggCvy7tyyYuqLclQCjowHA30ThKjtBxA/view?usp=sharing)
+[APK Link](https://drive.google.com/file/d/1ggCvy7tyyYuqLclQCjowHA30ThKjtBxA/view?usp=sharing)
 
 
 <p align="center">
