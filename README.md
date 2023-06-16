@@ -1,4 +1,4 @@
-![Logo Onikku](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/main/Logo.png)
+<img src="https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/main/Logo.png" alt="Logo" width="100" height="100">
 
 # Bangkit-Onikku-C23-PS044
 
