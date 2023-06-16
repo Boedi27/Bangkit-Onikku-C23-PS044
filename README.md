@@ -33,7 +33,7 @@ https://drive.google.com/file/d/1kp6Yu-eyoqMGfWy0XM0eFZs1GepWmcNY/view?usp=drive
 
 Link Deploy API (CC):
 
-https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/ for GET request
+https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/ for GET request\n
 
 https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/status for POST request on Postman put ‘file’ as key
 
