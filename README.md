@@ -14,19 +14,13 @@ This is a very simple app hence the user can just take a picture of their waste 
 We build the machine learning model of this project using Google Colab Environment due to some limitations of our devices. The machine learning model is built with Tensorflow as the framework to classify household waste. 
 
 
-  Our final code can be seen through the link below:
-
-[Final Code Onikku](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/ML/ML_Onikku_Final_accuracy_82.ipynb)
+  Our final code can be seen through [Final Code Onikku](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/blob/ML/ML_Onikku_Final_accuracy_82.ipynb)
 
 
-  While our dataset can be accessed through this link below:
-
-[Dataset Onikku](https://drive.google.com/drive/folders/1bzBNiePz_vq86dzwNGpiKfQTw99dAWmM)
+  While our dataset can be accessed through [Dataset Onikku](https://drive.google.com/drive/folders/1bzBNiePz_vq86dzwNGpiKfQTw99dAWmM)
 
 
-  The very final model in .h5 format can be accessed through this link below:
-
-[Final Model Onikku](https://drive.google.com/file/d/1kp6Yu-eyoqMGfWy0XM0eFZs1GepWmcNY/view?usp=drive_link)
+  The very final model in .h5 format can be accessed through [Final Model Onikku](https://drive.google.com/file/d/1kp6Yu-eyoqMGfWy0XM0eFZs1GepWmcNY/view?usp=drive_link)
 
 
   The above model is then deployed by the Cloud Computing members through the links below:
