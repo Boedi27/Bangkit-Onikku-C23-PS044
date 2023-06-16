@@ -14,3 +14,6 @@ Our Guild Members
 | Fajris Zahrotun Nihayah | M017DSY3443  | Machine Learning   |
 | Kheyla Ramadhani Hakim  | C132DSY0767  | Cloud Computing    |
 | Radhyana Putri          | C151DSY1383  | Cloud Computing    |
+
+Documentation:
+1. [Machine Learning](https://github.com/Boedi27/Bangkit-Onikku-C23-PS044/tree/ML)
