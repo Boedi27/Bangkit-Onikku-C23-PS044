@@ -37,8 +37,9 @@ https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/ for GET request
 
 https://deploy-flask-ml-api-26ivvkwsrq-et.a.run.app/status for POST request on Postman put ‘file’ as key
 
-<p align="center">
+
   This is the final demo of our app:
+<p align="center">
 
 
 
